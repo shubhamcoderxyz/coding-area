@@ -1,0 +1,50 @@
+* {
+    padding: o;
+    margin: 0;
+}
+
+#row-1 {
+    background-color: #1CD0AC;
+    height: 30px;
+    width: 100%;
+}
+
+.top-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.left-links {
+    width: 60%;
+    float: left;
+    height: 100%;
+}
+
+.left-links ul {}
+
+.left-links ul li {
+    float: left;
+    margin-left: 10px;
+    list-style: none;
+    color: white;
+    line-height: 30px;
+}
+
+.left-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links {
+    width: 60%;
+    float: right;
+    height: 100%;
+    text-align: right;
+}
+
+.social-links i {
+    color: black;
+    line-height: 30px;
+    border-right: 2px solid black;
+    padding-right: 8px;
+}
