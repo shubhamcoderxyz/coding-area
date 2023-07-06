@@ -65,7 +65,9 @@
     float: left;
 }
 .logo img{
-    height: 57px;
+    height: 51px;
+        margin-top: 5px;
+    
 }
 .menu{
     width: 65%;
