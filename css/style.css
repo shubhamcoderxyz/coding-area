@@ -97,3 +97,57 @@ border: 2px solid black;
 border-radius: 100%;
 line-height: 30px;
 }
+/* Row-2 CSS end */
+/* Row-3 CSS START */
+#Row-3{
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/Bridge-Blog-Featured-Image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round ;
+    position: relative;
+
+}
+.overlayrow3{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    position: absolute;}  
+
+.banner-section{
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+}
+.banner-content{}
+.banner-content h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 70px;
+    padding-top: 200px;
+}
+.banner-content p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.banner-botton{
+}
+.banner-botton button{
+    padding: 10px 20px;
+    /* background: #999; ; */
+background: none;
+    border: 2px solid #fff;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.banner-botton button:hover{
+    background-color: grey;
+    transition: 1s;
+}
+/* Row-3 CSS end */
