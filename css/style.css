@@ -48,3 +48,50 @@
     border-right: 2px solid black;
     padding-right: 8px;
 }
+/* Row-1 CSS end */
+/* Row-2 CSS start */
+#row-2{
+    height: 80px;
+    width: 100%;
+    background: white;
+}
+.header-section{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.logo{
+    width: 25%;
+    float: left;
+}
+.logo img{
+    height: 57px;
+}
+.menu{
+    width: 65%;
+    float: right;
+    text-align: right;
+}
+.menu ul{
+    /* text-align: right; */
+}
+.menu ul li{
+    float: left;
+    line-height: 80px;
+    /* margin-left: 7px; */
+    width: 106px;
+    text-align: center;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color : #3FBEAB;
+}
+.menu ul li i{
+    height: 30px;
+    width: 30px;
+border: 2px solid black;
+border-radius: 100%;
+line-height: 30px;
+}
