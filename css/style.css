@@ -17,7 +17,7 @@
 .left-links {
     width: 60%;
     float: left;
-    height: 100%;
+  height: 30px;
 }
 
 .left-links ul {}
@@ -84,6 +84,7 @@
     width: 106px;
     text-align: center;
     list-style: none;
+    color: #000;
 }
 .menu ul li a{
     text-decoration: none;
@@ -147,7 +148,67 @@ background: none;
     margin-right: 10px;
 }
 .banner-botton button:hover{
-    background-color: grey;
+    background-color: #2BBFA5;
     transition: 1s;
 }
 /* Row-3 CSS end */
+/* Row-3 CSS START */
+#Row-4{
+    height: 80px;
+    width: 100%;
+    background: #2C3F50;
+}
+.form-section{
+    width: 90%;
+    margin: 0 auto;
+}
+.text-part{
+    width: 20%;
+    float: left;
+    text-transform: uppercase;
+padding-top: 10px;
+}
+.text-part h4{
+    line-height: 32px;
+}
+.text-part h1{
+    color: #fff;
+}
+.form-part{}
+.form-part form{
+    width: 80%;
+    float: left;
+}
+.input-item{
+    float: left;
+    /* padding-top: 10px; */
+    width: 420px;
+}
+.input-item label{
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+    padding-right: 15px;
+}
+.input-item input[ type = "text"]{
+    padding: 8px;
+    width: 220px;
+    width: 320px;
+}
+.input-item input[ type = "date"]{
+    padding: 8px;
+    width: 220px;
+    width: 320px;
+}
+.input-item i{
+    color: grey;
+    position: absolute;
+    margin-left: -26px;
+    line-height: 35px;
+}
+.form-part button{
+    padding: 10px 15px;
+    margin-top: 10px;
+    background: #1DD2AF;
+    border: none;
+}
