@@ -178,6 +178,7 @@ padding-top: 10px;
 .form-part form{
     width: 80%;
     float: left;
+    margin-top: 20px;
 }
 .input-item{
     float: left;
@@ -208,7 +209,53 @@ padding-top: 10px;
 }
 .form-part button{
     padding: 10px 15px;
-    margin-top: 10px;
     background: #1DD2AF;
     border: none;
 }
+/* Row-4 CSS end */
+/* Row-5 CSS START */
+#Row-5{
+    height: 500px;
+    width: 100%;
+    background: white;
+}
+.offer-section{
+    width: 90%;
+    margin: 0 auto;
+}
+.offer-top{ 
+    text-align: center;
+    padding: 40px 0px;
+}
+.offer-top h2{}
+.offer-top p{}
+.offer-bottom{}
+.all_offer_item{}
+.offer_item{
+    width: 194px;
+    float: left;
+    margin-left: 40px;
+    border: 4px solid grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px  2px;
+    transition: 1s;
+}
+.offer_item:hover{
+    transform:scale(1.2);
+}
+.offer_item img{
+    width: 100%;
+    height: 150px;
+}
+.offer_text{
+    width: 80%;
+    float: left;
+}
+.offer_text h3{}
+.offer_text h4{}
+.offer_icon{
+    width: 10%;
+    float: right;
+}
+.offer_icon i{}
+/* Row-5 CSS end */
