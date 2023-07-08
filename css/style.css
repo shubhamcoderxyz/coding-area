@@ -17,7 +17,7 @@
 .left-links {
     width: 60%;
     float: left;
-  height: 30px;
+    height: 30px;
 }
 
 .left-links ul {}
@@ -48,36 +48,43 @@
     border-right: 2px solid black;
     padding-right: 8px;
 }
+
 /* Row-1 CSS end */
 /* Row-2 CSS start */
-#row-2{
+#row-2 {
     height: 80px;
     width: 100%;
     background: white;
 }
-.header-section{
+
+.header-section {
     width: 90%;
     margin: 0 auto;
 
 }
-.logo{
+
+.logo {
     width: 25%;
     float: left;
 }
-.logo img{
+
+.logo img {
     height: 51px;
-        margin-top: 5px;
-    
+    margin-top: 5px;
+
 }
-.menu{
+
+.menu {
     width: 65%;
     float: right;
     text-align: right;
 }
-.menu ul{
+
+.menu ul {
     /* text-align: right; */
 }
-.menu ul li{
+
+.menu ul li {
     float: left;
     line-height: 80px;
     /* margin-left: 7px; */
@@ -86,213 +93,318 @@
     list-style: none;
     color: #000;
 }
-.menu ul li a{
+
+.menu ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color : #3FBEAB;
+    color: #3FBEAB;
 }
-.menu ul li i{
+
+.menu ul li i {
     height: 30px;
     width: 30px;
-border: 2px solid black;
-border-radius: 100%;
-line-height: 30px;
+    border: 2px solid black;
+    border-radius: 100%;
+    line-height: 30px;
 }
+
 /* Row-2 CSS end */
 /* Row-3 CSS START */
-#Row-3{
+#Row-3 {
     height: 500px;
     width: 100%;
     background-image: url(../images/Bridge-Blog-Featured-Image.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-repeat: round ;
+    background-repeat: round;
     position: relative;
 
 }
-.overlayrow3{
+
+.overlayrow3 {
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0,.7);
-    position: absolute;}  
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+}
 
-.banner-section{
+.banner-section {
     text-align: center;
     color: white;
     position: absolute;
     width: 100%;
     margin: 0 auto;
 }
-.banner-content{}
-.banner-content h1{
+
+.banner-content {}
+
+.banner-content h1 {
     text-transform: uppercase;
     font-size: 50px;
     line-height: 70px;
     padding-top: 200px;
 }
-.banner-content p{
+
+.banner-content p {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 40px;
 }
-.banner-botton{
-}
-.banner-botton button{
+
+.banner-botton {}
+
+.banner-botton button {
     padding: 10px 20px;
     /* background: #999; ; */
-background: none;
+    background: none;
     border: 2px solid #fff;
     color: white;
     text-transform: uppercase;
     border-radius: 3px;
     margin-right: 10px;
 }
-.banner-botton button:hover{
+
+.banner-botton button:hover {
     background-color: #2BBFA5;
     transition: 1s;
 }
+
 /* Row-3 CSS end */
 /* Row-3 CSS START */
-#Row-4{
+#Row-4 {
     height: 80px;
     width: 100%;
     background: #2C3F50;
 }
-.form-section{
+
+.form-section {
     width: 90%;
     margin: 0 auto;
 }
-.text-part{
+
+.text-part {
     width: 20%;
     float: left;
     text-transform: uppercase;
-padding-top: 10px;
+    padding-top: 10px;
 }
-.text-part h4{
+
+.text-part h4 {
     line-height: 32px;
 }
-.text-part h1{
+
+.text-part h1 {
     color: #fff;
 }
-.form-part{}
-.form-part form{
+
+.form-part {}
+
+.form-part form {
     width: 80%;
     float: left;
     margin-top: 20px;
 }
-.input-item{
+
+.input-item {
     float: left;
     /* padding-top: 10px; */
     width: 420px;
 }
-.input-item label{
+
+.input-item label {
     font-size: 18px;
     font-weight: 500;
     color: grey;
     padding-right: 15px;
 }
-.input-item input[ type = "text"]{
+
+.input-item input[ type="text"] {
     padding: 8px;
     width: 220px;
     width: 320px;
 }
-.input-item input[ type = "date"]{
+
+.input-item input[ type="date"] {
     padding: 8px;
     width: 220px;
     width: 320px;
 }
-.input-item i{
+
+.input-item i {
     color: grey;
     position: absolute;
     margin-left: -26px;
     line-height: 35px;
 }
-.form-part button{
+
+.form-part button {
     padding: 10px 15px;
     background: #1DD2AF;
     border: none;
 }
+
 /* Row-4 CSS end */
 /* Row-5 CSS START */
-#Row-5{
+#Row-5 {
     height: 500px;
     width: 100%;
     background: white;
 }
-.offer-section{
+
+.offer-section {
     width: 90%;
     margin: 0 auto;
 }
-.offer-top{ 
+
+.offer-top {
     text-align: center;
     padding: 40px 0px;
 }
-.offer-top h2{
+
+.offer-top h2 {
     text-transform: uppercase;
     text-align: justify;
     margin-top: 100px;
     margin-left: 37rem;
-    
-    
-    }
-.offer-top p{
+
+
+}
+
+.offer-top p {
     text-align: center;
     text-align: justify;
     margin-left: 38rem;
     padding-top: 5px;
-    
-    
-    
-    }
-.offer-bottom{}
-.all-offer-items{
+
+
+
+}
+
+.offer-bottom {}
+
+.all-offer-items {
 
     margin-right: 130px;
     margin-top: 40px;
-  }
-.offer_item{
+}
+
+.offer_item {
     width: 194px;
     float: right;
     margin-left: 40px;
     border: 4px solid grey;
     border-radius: 5px;
-    box-shadow: 2px 2px  2px;
+    box-shadow: 2px 2px 2px;
     transition: 1s;
     background-color: pink;
 }
-.offer_item:hover{
-    transform:scale(1.2);
+
+.offer_item:hover {
+    transform: scale(1.2);
     background: #2D3E50;
 }
-.offer_item img{
+
+.offer_item img {
     width: 100%;
     height: 150px;
     cursor: pointer;
 }
-.offer_text{
+
+.offer_text {
     width: 80%;
     float: left;
 }
-.offer-text h3{
+
+.offer-text h3 {
     font-size: 14px;
     margin-left: 10px;
     padding-top: 10px;
-    
-    }
-    .offer-text h4{
-    
-      font-size: 12px;
-      margin-left: 10px;
-      padding-bottom: 10px;
-    
-    }
-    .offer-icon{
-      float: right;
-      width: 10%;
-      margin-left: 10px;
-    }
-    .offer-icon i{
-    
-    }
+
+}
+
+.offer-text h4 {
+
+    font-size: 12px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+.offer-icon {
+    float: right;
+    width: 10%;
+    margin-left: 10px;
+}
+
+.offer-icon i {}
 
 /* Row-5 CSS end */
+
+/* Row-6 CSS START */
+#Row-6 {
+    height: 400px;
+    width: 100%;
+    background: url(../images/OIP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
+    position: relative
+}
+
+.overlayrow6 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+}
+
+.holiday_section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.holi_top {
+    text-align: center;
+    padding: 40px 0px;
+    position: absolute;
+    color: white;
+    margin: 35px;
+}
+
+.holi_top h1 {
+    text-transform: uppercase;
+    /* color: white; */
+}
+
+.holi_top p {
+    /* color: white; */
+}
+
+.holi_bottom {
+    padding-bottom: 40px;
+    position: absolute;
+    top: 50%;
+}
+
+.holi_item_all {}
+
+.holi_item {
+    width: 189px;
+    color: white;
+    text-align: center;
+    float: left;
+
+}
+
+.holi_item i {
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 100%;
+    line-height: 100px;
+    font-size: 50px;
+}
+
+.holi_item h4 {}
+
+/* Row-6 CSS end */
